@@ -21,9 +21,9 @@ Vue.use(VueImgmode)
 ```
 
 ## Attributes:
-
+<div style="width:1200px">
 <table style="width:100%;display:block">
-    <tbody style="display:block;width:100%">
+    <thead style="display:block;width:100%">
         <tr style="display:block;width:100%">
             <td style="display:block" width="20%">333</td>
             <td style="display:block" width="20%"><b>说明</b></td>
@@ -31,6 +31,6 @@ Vue.use(VueImgmode)
             <td style="display:block" width="20%"><b>可选值</b></td>
             <td style="display:block" width="20%"><b>默认值</b></td>
         </tr>
-    </tbody>
+    </thead>
 </table>
-
+</div>

@@ -150,7 +150,7 @@ Vue.use(VueImgmode)
 
 ## example
 ``` bash
-组件里面加入插槽 可以用来添加小图标等
+#### 组件里面加入插槽 可以用来添加小图标等
 
 <template>
     <vue-imgmode :mode="imgmode" :width="`300px`" :height="`200px`"  :src="src">
@@ -169,4 +169,4 @@ Vue.use(VueImgmode)
         }
     }
 </script>
-``` bash
+```

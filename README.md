@@ -153,7 +153,7 @@ Vue.use(VueImgmode)
 #### 组件里面加入插槽 可以用来添加小图标等
 
 <template>
-    <vue-imgmode :mode="imgmode" :width="`300px`" :height="`200px`"  :src="src">
+    <vue-imgmode :mode="imgmode" width="300px" :height="`200px`"  :src="src">
        <div style="width: 10px;height: 10px;background: red;position: absolute;left: 0;top:0;z-index: 9">小图标</div>
     </vue-imgmode>
 </template>

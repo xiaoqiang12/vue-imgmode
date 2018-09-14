@@ -6,7 +6,7 @@
 </template>
 
 <script>
-// scaleToFill     缩放：不保持纵横比缩放图片，使图片的宽高完全拉伸至填满 image 元素
+// scaleToFill     缩放：不保持纵横比缩放图片，使图片的宽高完全拉伸至填满 img 元素
 // aspectFit       缩放：保持纵横比缩放图片，使图片的长边能完全显示出来。也就是说，可以完整地将图片显示出来。
 // aspectFill      缩放：保持纵横比缩放图片，只保证图片的短边能完全显示出来。也就是说，图片通常只在水平或垂直方向是完整的，另一个方向将会发生截取。
 // widthFix        缩放：宽度不变，高度自动变化，保持原图宽高比不变
@@ -47,11 +47,11 @@
             },
             width: {
                 type: String,
-                default: ''
+                default: '300px'
             },
             height: {
                 type: String,
-                default: ''
+                default: '200px'
             },
             mode: {
                 type: String,

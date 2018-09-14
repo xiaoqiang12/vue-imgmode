@@ -1,18 +1,7 @@
-# vue-imgmode
+# description
 
-> this is an vue component for img adaptation
+> 这是一个简单的针对图片显示的组件，模仿了微信小程序组件<image>的思路，让图片按照你的配置显示
 
-## Build Setup
+## 安装
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-```
-
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+npm install vue-imgmode --save

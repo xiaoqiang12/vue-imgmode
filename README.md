@@ -1,11 +1,11 @@
 # description
 ``` bash
-> 这是一个简单的针对图片显示的组件，模仿了微信小程序组件<image/>的思路，让图片按照你的配置显示
+这是一个简单的针对图片显示的组件，模仿了微信小程序组件<image/>的思路，让图片按照你的配置显示
 ```
 ## 安装
-
+``` bash
 npm install vue-imgmode --save
-
+```
 ## Usage
 ### 步骤一
 ``` bash
@@ -23,12 +23,14 @@ Vue.use(VueImgmode)
 ## Attributes:
 
 <table style="width:100%;display:block">
-  <tr>
-    <td width="20%"><b>参数</b></td>
-    <td width="20%"><b>说明</b></td>
-    <td width="20%"><b>类型</b></td>
-    <td width="20%"><b>可选值</b></td>
-    <td width="20%"><b>默认值</b></td>
-  </tr>
+    <tbody style="display:block;width:100%">
+        <tr style="display:block;width:100%">
+            <td style="display:block" width="20%">333</td>
+            <td style="display:block" width="20%"><b>说明</b></td>
+            <td style="display:block" width="20%"><b>类型</b></td>
+            <td style="display:block" width="20%"><b>可选值</b></td>
+            <td style="display:block" width="20%"><b>默认值</b></td>
+        </tr>
+    </tbody>
 </table>
 

@@ -46,7 +46,6 @@ Vue.use(VueImgmode)
             <td style="display:block" width="20%"></td>
             <td style="display:block" width="20%">空</td>
         </tr>
-      
         <tr width="100%">
             <td style="display:block" width="20%">title</td>
             <td style="display:block" width="20%">要显示的图片title信息</td>

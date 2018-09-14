@@ -21,16 +21,68 @@ Vue.use(VueImgmode)
 ```
 
 ## Attributes:
-<div style="width:1200px">
 <table style="width:100%;display:block">
-    <thead style="display:block;width:100%">
-        <tr style="display:block;width:100%">
-            <td style="display:block" width="20%">333</td>
+    <thead width="100%">
+        <tr width="100%">
+            <td style="display:block" width="20%"><b>参数</b></td>
             <td style="display:block" width="20%"><b>说明</b></td>
             <td style="display:block" width="20%"><b>类型</b></td>
             <td style="display:block" width="20%"><b>可选值</b></td>
             <td style="display:block" width="20%"><b>默认值</b></td>
         </tr>
     </thead>
+    <tbody width="100%">
+        <tr width="100%">
+            <td style="display:block" width="20%">src</td>
+            <td style="display:block" width="20%">要显示的图片路径></td>
+            <td style="display:block" width="20%">String</td>
+            <td style="display:block" width="20%"></td>
+            <td style="display:block" width="20%">空</td>
+        </tr>
+        <tr width="100%">
+            <td style="display:block" width="20%">alt</td>
+            <td style="display:block" width="20%">要显示的图片alt信息</td>
+            <td style="display:block" width="20%">String</td>
+            <td style="display:block" width="20%"></td>
+            <td style="display:block" width="20%">空</td>
+        </tr>
+      
+        <tr width="100%">
+            <td style="display:block" width="20%">title</td>
+            <td style="display:block" width="20%">要显示的图片title信息</td>
+            <td style="display:block" width="20%">String</td>
+            <td style="display:block" width="20%"></td>
+            <td style="display:block" width="20%">空</td>
+        </tr>
+        <tr width="100%">
+            <td style="display:block" width="20%">width</td>
+            <td style="display:block" width="20%">要显示的图片容器div的宽度</td>
+            <td style="display:block" width="20%">String</td>
+            <td style="display:block" width="20%"></td>
+            <td style="display:block" width="20%">300px</td>
+        </tr>
+        <tr width="100%">
+            <td style="display:block" width="20%">height</td>
+            <td style="display:block" width="20%">要显示的图片容器div的高度</td>
+            <td style="display:block" width="20%">String</td>
+            <td style="display:block" width="20%"></td>
+            <td style="display:block" width="20%">200px</td>
+        </tr>
+        <tr width="100%">
+            <td style="display:block" width="20%">mode</td>
+            <td style="display:block" width="20%">要显示的图片的显示方式</td>
+            <td style="display:block" width="20%">String</td>
+            <td style="display:block" width="20%">scaleToFill、aspectFit、top登</td>
+            <td style="display:block" width="20%">widthFix</td>
+        </tr>
+        <tr width="100%">
+            <td style="display:block" width="20%">vclass</td>
+            <td style="display:block" width="20%">需要给图片容器添加的类名</td>
+            <td style="display:block" width="20%">String</td>
+            <td style="display:block" width="20%"></td>
+            <td style="display:block" width="20%">空</td>
+        </tr>
+    </tbody>
 </table>
-</div>
+
+### mode 类型:

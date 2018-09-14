@@ -17,7 +17,7 @@ Vue.use(VueImgmode)
 ### 步骤二
 ``` bash
 在组件中即可使用
-<vue-imgmode :mode="imgmode" :width="`300px`" :height="`200px`"  :src="require('@/assets/logo.png')"></vue-imgmode>
+<vue-imgmode :mode="imgmode" width="300px" :height="`200px`"  :src="require('@/assets/logo.png')"></vue-imgmode>
 ```
 
 ## Attributes:

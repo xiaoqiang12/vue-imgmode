@@ -1,11 +1,11 @@
 {
   "name": "vue-imgmode",
   "description": "this is an vue component for img adaptation",
-  "version": "1.0.0",
-  "author": "linqiang <linqiang@nawang.cn>",
+  "version": "1.0.2",
+  "author": "xiaoqiang12",
   "license": "MIT",
   "private": false,
-  "main": "dist/vue-imgmode.min.js",
+  "main": "dist/vue-imgmode.js",
   "directories": {
     "dist": "dist"
    },

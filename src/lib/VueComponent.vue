@@ -1,6 +1,7 @@
 <template>
     <div class="imgmode" :style="{height:height,width:width,lineHeight:height}" :class="vclass">
-        <img ref="img" @load="_loadimg" :src="src" :alt="alt" :title="title"/>
+        <slot></slot>
+        <img v-show="loadCompulete" ref="img" @load="_loadimg" :src="src" :alt="alt" :title="title"/>
     </div>
 </template>
 
@@ -22,8 +23,7 @@
         name: 'Imgmodel',
         data () {
             return {
-                imgw: '',
-                imgh: ''
+                loadCompulete: false
             }
         },
         props: {
@@ -157,11 +157,11 @@
                     imgobj.style.right = '0'
                     imgobj.style.bottom = '0'
                     break
-
                 default:
                     imgobj.style.width = '100%'
                     imgobj.style.height = 'auto'
                 }
+                this.loadCompulete = true
             }
         }
     }

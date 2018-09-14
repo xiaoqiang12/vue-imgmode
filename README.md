@@ -5,3 +5,11 @@
 ## 安装
 
 npm install vue-imgmode --save
+
+## Usage
+### 步骤一
+
+在 main.js 入口文件引入
+
+import VueImgmode from 'vue-imgmode'
+Vue.use(VueImgmode)
